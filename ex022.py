@@ -1,0 +1,17 @@
+frase = input('Digite o seu nome: ')
+dividido = frase.split()
+print('Seu nome tudo em maiusculo', frase.upper())
+print('Seu nome tudo em minusculo', frase.lower())
+espaços = frase.count(' ')
+nome = len(frase)
+print('Quantas letras sem considerar o espaço {}'.format(nome-espaços))
+print('Seu primeir nome possuem',(len(dividido[0])))#
+
+#nome=input('Seu nome completo:')
+#print('Seu nome com todas as letras maiúsculas: {}'.format(nome.upper()))
+#print('Seu nome com todas as letras minúscula: {}'.format(nome.lower()))
+#espacos=nome.count(' ')
+#indice=len(nome)
+#print('Seu nome tem {} letras'.format(indice-espacos))
+#dividido=nome.split()
+#print('Seu primeiro nome tem {} letras'.format(len(dividido[0])))

@@ -1,0 +1,6 @@
+frase = str(input("Digite sua frase: ")).strip()
+grande = frase.upper()
+espaço = frase.count(' ')
+print(grande.count('A'))
+print(grande.find('A')+1)
+print(grande.rfind('A')+1 - espaço)
