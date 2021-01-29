@@ -7,3 +7,4 @@ print('Ele está em minusculo? ', n.islower())
 print('Ele é um digito? ', n.isdigit())
 print('Ele é um decimal? ', n.isdecimal())
 print('Tchau dxzin fofolol')
+ 
